@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package user;
+
+option go_package = "user-service/proto";
+
+service UserService {
+  rpc RegisterUser(RegisterRequest) returns (RegisterResponse);
+}
+
+message RegisterRequest {
+  string username = 1;
+  string email = 2;
+  string password = 3;
+}
+
+message RegisterResponse {
+  string message = 1;
+}
