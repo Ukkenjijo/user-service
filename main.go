@@ -3,10 +3,10 @@ package main
 import (
 	"log"
 	"net"
-	"user-service/proto"
-	"user-service/service"
 
 	emailproto "github.com/Ukkenjijo/email-service/proto"
+	"github.com/Ukkenjijo/user-service/proto"
+	"github.com/Ukkenjijo/user-service/service"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"

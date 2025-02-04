@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 	"log"
-	"user-service/proto"
+
 	emailproto "github.com/Ukkenjijo/email-service/proto"
-	
+	"github.com/Ukkenjijo/user-service/proto"
 )
 
 type UserService struct {

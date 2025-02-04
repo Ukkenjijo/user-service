@@ -1,8 +1,7 @@
 package repository
 
 import (
-	"user-service/service"
-
+	"github.com/Ukkenjijo/user-service/service"
 	"gorm.io/gorm"
 )
 
